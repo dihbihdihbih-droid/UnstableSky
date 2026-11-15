@@ -1,0 +1,21 @@
+# UnstableSky configuration. Interval values are in seconds.
+# Keys match the original Skript "options" section.
+
+keyall:
+  normal-interval: 600
+  media-interval: 480
+  vip-interval: 480
+  skysmperplus-interval: 360
+  skysmperplusplus-interval: 300
+  overlord-interval: 240
+  prestige-interval: 180
+  ascendant-interval: 120
+
+  afk-interval: 240
+  media-afk-interval: 160
+  overlord-afk-interval: 120
+  prestige-afk-interval: 60
+  ascendant-afk-interval: 60
+
+clearlag:
+  default-time: 600

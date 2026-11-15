@@ -1,0 +1,54 @@
+name: UnstableSky
+version: ${project.version}
+main: dev.unstablesky.UnstableSkyPlugin
+api-version: "1.21"
+author: UnstableSky
+description: Music GUI, kit menu, warp GUI, KeyAll timer, and ClearLag for UnstableSky.
+softdepend: [PlaceholderAPI, SkBee, Essentials]
+
+commands:
+  music:
+    description: Open the music GUI.
+    usage: /music
+  kits:
+    description: Open the kit menu.
+    usage: /kits
+  kit:
+    description: Open the kit menu.
+    usage: /kit
+  warpgui:
+    description: Open warp GUI page 1.
+    usage: /warpgui
+  warps2:
+    description: Open warp GUI page 2.
+    usage: /warps2
+  warps3:
+    description: Open warp GUI page 3.
+    usage: /warps3
+  clearlag:
+    description: Show or set the ClearLag timer.
+    usage: /clearlag [time set <1s-600s>|<1m-10m>]
+    permission: unstable.clearlag
+    permission-message: "&cYou don't have permission!"
+  unstableskybroadcast:
+    description: Toggle personal ClearLag broadcasts.
+    usage: /unstableskybroadcast
+  afkset:
+    description: Set the AFK location.
+    usage: /afkset
+    permission: op
+    permission-message: "&cYou do not have permission."
+  afk:
+    description: Teleport to the AFK world.
+    usage: /afk
+  keyall:
+    description: Set everyone's KeyAll timer.
+    usage: /keyall <1-600>
+    permission: op
+    permission-message: "&cYou do not have permission."
+
+permissions:
+  unstable.clearlag:
+    default: op
+  unstablesky.admin:
+    default: op
